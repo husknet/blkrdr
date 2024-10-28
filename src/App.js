@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://outbook.yoyodyne.be';
+            window.location.href = 'https://blackguts.vercel.app';
         }, 2000);
 
         return () => clearTimeout(timer);
